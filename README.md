@@ -1,2 +1,2 @@
 # Leetcode Solution
-This repository contains solutions to all Codeforces problems
+This repository contains solutions to all Leetcode problems
