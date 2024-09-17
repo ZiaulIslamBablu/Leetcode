@@ -38,9 +38,18 @@ class Solution {
             int digit = c - '0';
 
             // Check for overflow before updating ans
-            if (ans > (MAX - digit) / 10) {
-                return sign == 1 ? MAX : MIN;
-            }
+           // if (ans > (MAX - digit) / 10) {
+             //   return sign == 1 ? MAX : MIN;
+           // }
+
+
+if (ans > (MAX - digit) / 10) {
+    if (sign == 1) {
+        return MAX;
+    } else {
+        return MIN;
+    }
+}
 
             // Update ans
             ans = ans * 10 + digit;
