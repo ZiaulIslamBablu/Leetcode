@@ -34,6 +34,4 @@ class Solution {
             leftpre.next= pre;
                     sublist.next= curr; 
          return dummy.next;
-}   
-    }
-        
+}   }
