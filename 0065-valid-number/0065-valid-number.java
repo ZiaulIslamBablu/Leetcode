@@ -17,7 +17,8 @@ class Solution {
             if (ch == '+' || ch == '-') {
                 // Sign not allowed after the first character unless after 'e' or 'E'
                 return false;
-            } else if (Character.isAlphabetic(ch)) {
+            }
+                else if (Character.isAlphabetic(ch)) {
                 if (ch == 'e' || ch == 'E') {
                     // 'e' or 'E' can only appear once, and only if a number was seen before
                     if (e_used || !number_seen) {
